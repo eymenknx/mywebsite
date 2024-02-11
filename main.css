@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(190deg, #ffffff, #e8d9d9, #d0b0b0, #c19b9b, #9f6f6f);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    -o-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:77% 0%}
+    50%{background-position:24% 100%}
+    100%{background-position:77% 0%}
+}
+
+h1{
+    color: rgb(12,12,45)
+}
+
+#box{
+    color: rgb(45,12,12)
+}
+
+header {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px; /* Add padding to separate the borders */
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.119);
+    text-shadow: 1px 1px 1px;
+    background: hsl relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    border: linear-gradient(rgb(40, 18, 167),rgb(40, 0, 255));
+    padding: 5px; /* Add padding to separate the borders */
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.119);
+    text-shadow: 1px 1px 1px;
+    background: hsl relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+br {
+    margin-bottom: 50px
+}
